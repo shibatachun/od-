@@ -10,6 +10,8 @@ public class editfile {
         FileWriter fw = null;
         BufferedReader br = null;
         BufferedWriter bw = null;
+        String Od1 ="OverallDifficulty:";
+        String Hp1 ="HPDrainRate:";
 
         List list = new ArrayList<>();
 
@@ -19,6 +21,11 @@ public class editfile {
             br = new BufferedReader(fr);
             String line = br.readLine();
             while (line != null){
+                if(line.contains(Od1) || line.contains(Hp1))
+                {
+                    line = line.replaceAll(" ", "");
+                }
+
                 if (line.contains(srcStr))
                 {
                     line = line.replace(srcStr, desStr);

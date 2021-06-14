@@ -17,8 +17,8 @@ public class Main {
         int hp2 =0;
         int select = 0;
         String db = "\\osu!.db";
-        String Od1 ="OverallDifficulty: ";
-        String Hp1 ="HPDrainRate: ";
+        String Od1 ="OverallDifficulty:";
+        String Hp1 ="HPDrainRate:";
         System.out.println("please select od or hp (1/2)");
         select = user.nextInt();
         if(select == 1)
