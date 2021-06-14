@@ -1,5 +1,5 @@
 # od-
-osu OD or HP change
-Open it in IDEA or other IDE
-Back up your osu!.db
+osu OD or HP change\n
+Open it in IDEA or other IDE\n
+Back up your osu!.db\n
 Run it!
